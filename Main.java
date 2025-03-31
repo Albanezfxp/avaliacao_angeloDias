@@ -30,7 +30,7 @@ public class Main {
                         "\nPreço: R$ " + price +
                         "\nEstoque antes da venda: " + quantityInStock + " unidades" +
                         "\nVenda realizada: " + produto.quantityInSale + " unidades\n" +
-                        "Estoque atualizado: " + produto.quantityInStock
+                        "Estoque atualizado: " + produto.quantityInStock + " unidades"
         );
         System.out.println("\n\nNão foi feito por IA");
     }
