@@ -21,8 +21,8 @@ public class Main {
                 "Produto: " + name +
                 "\nPreço: R$ " + price +
                 "\nEstoque antes da venda: " + quantityInStock + " unidades" +
-                "\nVenda realizada: " + produto.quantityInSale + " unidades"
+                "\nVenda realizada: " + produto.quantityInSale + " unidades\n"
         );
-
+        System.out.println("Não foi feito por IA");
     }
 }
