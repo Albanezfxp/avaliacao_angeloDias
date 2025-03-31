@@ -19,10 +19,19 @@ public class Main {
 
         System.out.printf(
                 "Produto: " + name +
-                "\nPreço: R$ " + price +
-                "\nEstoque antes da venda: " + quantityInStock + " unidades" +
-                "\nVenda realizada: " + produto.quantityInSale + " unidades\n"
+                        "\nPreço: R$ " + price +
+                        "\nEstoque antes da venda: " + quantityInStock + " unidades" +
+                        "\nVenda realizada: " + produto.quantityInSale + " unidades\n" +
+                        "Estoque atualizado: " + produto.quantityInStock
         );
-        System.out.println("Não foi feito por IA");
+        produto.saleProduct(sc.nextInt());
+        System.out.printf(
+                "Produto: " + name +
+                        "\nPreço: R$ " + price +
+                        "\nEstoque antes da venda: " + quantityInStock + " unidades" +
+                        "\nVenda realizada: " + produto.quantityInSale + " unidades\n" +
+                        "Estoque atualizado: " + produto.quantityInStock
+        );
+        System.out.println("\n\nNão foi feito por IA");
     }
 }
